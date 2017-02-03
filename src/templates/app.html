@@ -1,11 +1,31 @@
-<header>
-  <nav>
-    <ul ng-repeat="page in appCtrl.nav">
-      <li ui-sref="{{page}}">{{page}}</li>
-    </ul>
-  </nav>
-</header>
-
+<!--- Left Aside --->
+<aside class="main-aside">
+  <div class="content">
+    <img src="#" alt="Chloe Collier's profile picture.">
+    <div class="info">
+      <h1>Chloe Collier</h1>
+      <i ng-repeat="media in appCtrl.social" class="fa fa-{{media}}" aria-hidden="true"></i>
+      <h2>Designer who codes;</h2>
+    </div>
+  </div>
+</aside>
+<!--- Main Container --->
 <div class="container">
-  <ui-view>LOADING</ui-view>
+  <!--- Header --->
+  <header>
+    <nav>
+      <ul>
+        <li ng-repeat="page in appCtrl.nav" ui-sref="{{page}}">{{page}}</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <ui-view>LOADING</ui-view>
+  </main>
 </div>
+<!--- Right Aside --->
+<aside class="aside">
+  <div class="content">
+    <img src="#" alt="Designer and developer logo.">
+  </div>
+</aside>

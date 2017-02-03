@@ -8,6 +8,7 @@ angular.module('portfolioApp')
       }
 
       ctrl.nav = ['home', 'about', 'career', 'contact'];
+      ctrl.social = ['twitter', 'instagram', 'github-alt'];
     },
     controllerAs: 'appCtrl'
   });
