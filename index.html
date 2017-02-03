@@ -1,20 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="portfolioApp">
 
 <head>
     <meta charset='UTF-8'>
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title></title>
+    <title>Chloe Collier</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="lib/styles/main.min.css">
 </head>
 
 <body>
-    <div class="container"></div>
+  <app></app>
 
+    <script src="./node_modules/angular/angular.js"></script>
+    <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
     <script src="lib/js/vendor.min.js"></script>
     <script src="lib/js/app.js"></script>
+    <script src="src/js/components/app-component.js"></script>
+    <script src="src/js/components/home-component.js"></script>
+    <script src="src/js/components/about-component.js"></script>
+    <script src="src/js/components/contact-component.js"></script>
+    <script src="src/js/components/career-component.js"></script>
 </body>
 
 </html>

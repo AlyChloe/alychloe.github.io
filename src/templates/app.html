@@ -1,0 +1,11 @@
+<header>
+  <nav>
+    <ul ng-repeat="page in appCtrl.nav">
+      <li ui-sref="{{page}}">{{page}}</li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <ui-view>LOADING</ui-view>
+</div>
