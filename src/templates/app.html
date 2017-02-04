@@ -1,7 +1,7 @@
 <!--- Left Aside --->
 <aside class="main-aside">
   <div class="content">
-    <img src="#" alt="Chloe Collier's profile picture.">
+    <img src="src/images/me.jpg" alt="Chloe Collier's profile picture.">
     <div class="info">
       <h1>Chloe Collier</h1>
       <i ng-repeat="media in appCtrl.social" class="fa fa-{{media}}" aria-hidden="true"></i>
@@ -15,7 +15,10 @@
   <header>
     <nav>
       <ul>
-        <li ng-repeat="page in appCtrl.nav" ui-sref="{{page}}">{{page}}</li>
+        <li ng-repeat="page in appCtrl.nav" ui-sref="{{page.page}}">
+          <i class="fa {{page.icon}}" aria-hidden="true"></i>
+          <p>{{page.page}}</p>
+        </li>
       </ul>
     </nav>
   </header>
@@ -26,6 +29,6 @@
 <!--- Right Aside --->
 <aside class="aside">
   <div class="content">
-    <img src="#" alt="Designer and developer logo.">
+    <img src="src/images/designer-developer.svg" alt="Designer and developer logo.">
   </div>
 </aside>

@@ -11,3 +11,20 @@ aside {
     border-left: #ddd solid 1px;
   }
 }
+
+.aside {
+  .content {
+    text-align: center;
+    
+    img {
+      width: 150px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.main-aside {
+  img {
+    width: 180px;
+  }
+}

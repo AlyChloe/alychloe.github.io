@@ -7,7 +7,17 @@ angular.module('portfolioApp')
         console.log('APP');
       }
 
-      ctrl.nav = ['home', 'about', 'career', 'contact'];
+      ctrl.active = false;
+      ctrl.isActive = function() {
+        ctrl.active = true;
+      }
+
+      ctrl.nav = [
+        {page:'work', icon:'fa-briefcase'},
+        {page:'about', icon:'fa-hand-peace-o'},
+        {page:'career', icon:'fa-trophy'},
+        {page:'contact', icon:'fa-envelope'}
+      ];
       ctrl.social = ['twitter', 'instagram', 'github-alt'];
     },
     controllerAs: 'appCtrl'

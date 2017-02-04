@@ -1,4 +1,11 @@
-.container {
-  display: inline-block;
-  width: 64vw;
+body, html {
+    overflow-y: hidden;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+    .container {
+      display: inline-block;
+      width: 64vw;
+    }
 }

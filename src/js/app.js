@@ -14,5 +14,8 @@ angular.module('portfolioApp', ['ui.router'])
       }).state('career', {
         url: '/career',
         template: '<career></career>'
+      }).state('work', {
+        url: '/work',
+        template: '<work></work>'
       });
   }]);
