@@ -1,1 +1,84 @@
-
+{
+  "skills": [
+    {
+      "skill": "JavaScript",
+      "level": "experienced"
+    },
+    {
+      "skill": "JQuery",
+      "level": "experienced"
+    },
+    {
+      "skill": "HTML",
+      "level": "experienced"
+    },
+    {
+      "skill": "CSS/Sass",
+      "level": "experienced"
+    },
+    {
+      "skill": "Grunt",
+      "level": "experienced"
+    },
+    {
+      "skill": "Git/GitHub",
+      "level": "experienced"
+    },
+    {
+      "skill": "Angular.js",
+      "level": "experienced"
+    },
+    {
+      "skill": "Ember.js",
+      "level": "beginner"
+    },
+    {
+      "skill": "Sketch/Figma",
+      "level": "expert"
+    },
+    {
+      "skill": "Bourbon",
+      "level": "experienced"
+    },
+    {
+      "skill": "HAML",
+      "level": "beginner"
+    },
+    {
+      "skill": "Bootstrap",
+      "level": "experienced"
+    },
+    {
+      "skill": "Handlebars",
+      "level": "experienced"
+    },
+    {
+      "skill": "WordPress",
+      "level": "experienced"
+    },
+    {
+      "skill": "C",
+      "level": "beginner"
+    },
+    {
+      "skill": "Firebase",
+      "level": "experienced"
+    },
+    {
+      "skill": "Visual Studio",
+      "level": "beginner"
+    },
+    {
+      "skill": "SharePoint Designer",
+      "level": "experienced"
+    },
+    {
+      "skill": "SharePoint Online",
+      "level": "experienced"
+    },
+    {
+      "skill": "Adobe Suite",
+      "level": "expert"
+    }
+  ]
+}
