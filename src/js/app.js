@@ -6,10 +6,10 @@ angular.module('portfolioApp', ['ui.router'])
         url: '/',
         template: '<home></home>'
       }).state('about', {
-        url: '/about-chloe',
+        url: '/about',
         template: '<about></about>'
       }).state('contact', {
-        url: '/contact-chloe',
+        url: '/contact',
         template: '<contact></contact>'
       }).state('career', {
         url: '/career',

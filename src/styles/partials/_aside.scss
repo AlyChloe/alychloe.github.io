@@ -15,7 +15,7 @@ aside {
 .aside {
   .content {
     text-align: center;
-    
+
     img {
       width: 150px;
       margin-top: 20px;
@@ -26,5 +26,30 @@ aside {
 .main-aside {
   img {
     width: 180px;
+  }
+
+  .content {
+    padding: 20px;
+
+    .info {
+      padding-top: 35px;
+
+      h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        font-size: 22px;
+        color: #ddd;
+        padding-top: 40px;
+        line-height: 35px;
+      }
+
+      i {
+        font-size: 20px;
+        margin-right: 15px;
+      }
+    }
   }
 }

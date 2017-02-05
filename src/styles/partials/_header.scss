@@ -8,14 +8,15 @@ header {
     ul {
       text-align: center;
 
+      .active {
+        border-bottom: #aaa solid 5px;
+        background: #ccc;
+      }
+
       li {
         display: inline-block;
         padding: 45px 50px;
         display: inline-block;
-
-        .active {
-          background: red;
-        }
 
         i {
           font-size: 15px;

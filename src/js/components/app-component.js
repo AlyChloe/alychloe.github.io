@@ -1,16 +1,14 @@
 angular.module('portfolioApp')
   .component('app', {
     templateUrl: 'src/templates/app.html',
-    controller: function() {
+    controller: function($location) {
       var ctrl = this;
       ctrl.$onInit = function() {
         console.log('APP');
       }
-
-      ctrl.active = false;
-      ctrl.isActive = function() {
-        ctrl.active = true;
-      }
+      // ctrl.states = {};
+      ctrl.activeItem = $location.path().substr(1);
+      console.log($location.path().substr(1));
 
       ctrl.nav = [
         {page:'work', icon:'fa-briefcase'},
