@@ -12,6 +12,12 @@ aside {
   }
 }
 
+.asideActive {
+  height: 22.3vh;
+  border-bottom: #ddd solid 1px;
+  transition: height ease-in 1s;
+}
+
 .aside {
   .content {
     text-align: center;
@@ -24,8 +30,20 @@ aside {
 }
 
 .main-aside {
-  img {
+  .img-container {
     width: 180px;
+    border: $font solid 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-height: 180px;
+
+    img {
+      width: 800px;
+      position: relative;
+      z-index: -1;
+      left: -270px;
+      top: -225px;
+    }
   }
 
   .content {
@@ -37,18 +55,22 @@ aside {
       h1 {
         font-size: 25px;
         margin-bottom: 15px;
+        color: $prim;
+        font-weight: 400;
       }
 
       h2 {
-        font-size: 22px;
-        color: #ddd;
+        font-size: 20px;
+        color: $font;
         padding-top: 40px;
-        line-height: 35px;
+        line-height: 28px;
+        font-weight: 100;
       }
 
       i {
         font-size: 20px;
         margin-right: 15px;
+        color: $prim;
       }
     }
   }

@@ -1,7 +1,7 @@
 angular.module('portfolioApp')
   .component('career', {
     templateUrl: 'src/templates/career.html',
-    controller: ['appService', function(appService) {
+    controller: ['appService', '$firebaseObject', '$scope', function(appService, $firebaseObject, $scope) {
       let ctrl = this;
       let ref = appService.firebase;
 
@@ -9,8 +9,9 @@ angular.module('portfolioApp')
         console.log('Im working!');
       }
 
-      ref.on("value", function(snapshot) {
-        console.log(snapshot.val());
+      ref.once("value", function(snapshot) {
+        $scope.techSkills = snapshot.val().skills;
+        $scope.$apply();
       }, function (errorObject) {
         console.log("The read failed: " + errorObject.code);
       });

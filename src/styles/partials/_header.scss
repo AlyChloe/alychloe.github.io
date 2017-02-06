@@ -9,23 +9,30 @@ header {
       text-align: center;
 
       .active {
-        border-bottom: #aaa solid 5px;
-        background: #ccc;
+        border-bottom: $prim solid 5px;
+        background: $sec;
+
+        i, p {
+          color: $prim;
+        }
       }
 
       li {
         display: inline-block;
         padding: 45px 50px;
         display: inline-block;
+        cursor: pointer;
 
         i {
           font-size: 15px;
           margin-right: 7px;
+          color: $font;
         }
 
         p {
           display: inline-block;
           font-size: 16px;
+          color: #aaa;
 
           &::first-letter {
             text-transform: capitalize;

@@ -3,12 +3,21 @@ angular.module('portfolioApp')
     templateUrl: 'src/templates/app.html',
     controller: function($location) {
       var ctrl = this;
+      ctrl.slideUp = false;
+
       ctrl.$onInit = function() {
-        console.log('APP');
+        //console.log('APP');
       }
-      // ctrl.states = {};
       ctrl.activeItem = $location.path().substr(1);
-      console.log($location.path().substr(1));
+      console.log(ctrl.activeItem);
+
+      if(ctrl.activeItem == 'work') {
+        ctrl.slideUp = !ctrl.slideUp;
+      }
+
+      $('nav li').on('click', '.work', function(e) {
+        console.log(e);
+      });
 
       ctrl.nav = [
         {page:'work', icon:'fa-briefcase'},
