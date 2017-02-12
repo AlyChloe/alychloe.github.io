@@ -1,15 +1,63 @@
 career {
+  margin: 0 auto;
+  display: block;
+  max-width: 1000px;
+
   h1 {
     font-size: 24px;
+    padding-bottom: 25px;
+
   }
 
   .skills {
-    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: hidden;
 
-    p {
+    .skills-container {
+      position: relative;
       float: left;
       width: 25%;
       padding: 9px 0 9px 0;
+      cursor: pointer;
+
+      &:hover {
+        & .skill {
+          visibility: hidden;
+        }
+
+        & .skillLevelToggle {
+          display: block;
+        }
+      }
+
+      .skillLevelToggle {
+        display: none;
+        color: #fff;
+        position: absolute;
+        top: 4px;
+        background: $prim;
+        padding: 5px 12px;
+        border-radius: 4px;
+      }
+
+      p {
+
+      }
+
+      .skill {
+
+      }
+    }
+
+  }
+
+  .career {
+    padding-top: 25px;
+
+    .career-container {
+      margin: 15px 0;
+      position: relative;
+      padding-bottom: 40px;
     }
   }
 }

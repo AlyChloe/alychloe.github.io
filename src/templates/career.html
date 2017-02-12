@@ -1,8 +1,37 @@
 <h1>Technical Skills</h1>
+<!-- ***************
+Skills Section
+**************** -->
 <div class="skills">
-  <p ng-repeat="skill in techSkills">{{skill.skill}}</p>
+  <div ng-repeat="skill in techSkills" class="skills-container">
+    <p class="skill">{{skill.skill}}</p>
+    <p class="skillLevelToggle">{{skill.level}}</p>
+  </div>
 </div>
+<!-- ***************
+Career Section
+**************** -->
 <div class="career">
   <h1>Career</h1>
-
+  <div ng-repeat="career in career" class="career-container">
+    <article>
+      <div class="icon">
+        <h2>{{career.year}}</h2>
+        <div class="line"></div>
+      </div>
+      <!-- ***************
+      Individual Careers
+      **************** -->
+      <div class="career-content">
+        <h3><span>{{career.position}}</span> at {{career.company}}</h3>
+        <p class="position-info">{{career.info}}</p>
+        <div class="duties">
+          <p>Glimpse of duties:</p>
+          <ul>
+            <li ng-repeat="duty in career.duties">{{duty}}</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
 </div>

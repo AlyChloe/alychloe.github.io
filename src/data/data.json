@@ -1,4 +1,63 @@
 {
+  "career": [
+    {
+      "position": "Front-End Developer",
+      "company": "Raleigh Creative Software",
+      "year": "Now",
+      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "duties": [
+        "Building websites and applications using HTML, Sass, JavaScript, & C# in Visual Studio",
+        "Designing project mockups using Figma & Sketch",
+        "Built and designed RCS’s current website - check it out!",
+        "Refactoring code to make life cleaner, slimpler, & plain old better"
+      ]
+    },
+    {
+      "position": "Front-End Engineer Student",
+      "company": "The Iron Yard",
+      "year": "2016",
+      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "duties": [
+        "Programmed websites using JavaScript, JQuery, MVC frameworks, Sass, and APIs",
+        "Built variety of apps such as a music playlist, interactive games, and complex dashboard",
+        "Collaborated weekly on group projects which led to working web applications",
+        "Designed all personal and group project mockups using Sketch"
+      ]
+    },
+    {
+      "position": "Front-End Developer",
+      "company": "Penner Web Design",
+      "year": "2016",
+      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "duties": [
+        "Developed websites in WordPress from design mockups using HTML and CSS"
+      ]
+    },
+    {
+      "position": "Creative Services Coordinator",
+      "company": "OnPar Technologies",
+      "year": "2015",
+      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "duties": [
+        "Implemented SharePoint design and development projects for clients",
+        "Performed live training and webinars on Microsoft SharePoint",
+        "Developed email marketing campaigns, e-newsletters, and blogs"
+      ]
+    },
+    {
+      "position": "Business Development Coordinator",
+      "company": "OnPar Technologies",
+      "year": "2013",
+      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "duties": [
+        "Created and maintained client websites",
+        "Provided input on company’s strategies, processes, and procedures",
+        "Leveraged graphic design skills to create over 40 marketing collateral",
+        "Promoted company through marketing collateral, social media, and events"
+      ]
+    }
+  ],
+  
   "skills": [
     {
       "skill": "JavaScript",

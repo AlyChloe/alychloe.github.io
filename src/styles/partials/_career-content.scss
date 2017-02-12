@@ -1,0 +1,67 @@
+article {
+  overflow: hidden;
+
+  .icon {
+    width: 10%;
+    float: left;
+
+    h2 {
+      background: $sec;
+      border-radius: 50%;
+      text-align: center;
+      height: 73px;
+      width: 73px;
+      padding-top: 24px;
+      border: $prim solid 5px;
+      position: relative;
+      z-index: 2;
+      color: $prim;
+      font-weight: 400;
+    }
+
+    .line {
+      height: 100%;
+      background: $prim;
+      width: 5px;
+      position: absolute;
+      top: 47px;
+      left: 35px;
+      z-index: 0;
+    }
+  }
+
+  .career-content {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 90%;
+    float: left;
+
+    span {
+      font-weight: 400;
+    }
+
+    & > p {
+      padding: 20px 0;
+      font-style: italic;
+      line-height: 23px;
+    }
+
+    .duties {
+
+      p {
+        padding-bottom: 20px;
+      }
+
+      ul {
+        padding-left: 45px;
+
+        li {
+          list-style: initial;
+          padding-bottom: 10px;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+};

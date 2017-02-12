@@ -3,4 +3,19 @@ main {
   padding: 45px;
   height: 100vh;
   background: url(../../src/images/crossword.png);
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    //-webkit-appearance: none;
+    width: 6px;
+    max-height: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $prim;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+::-webkit-scrollbar-track-piece{
+  background: $sec;
 }
