@@ -1,9 +1,7 @@
 <!--- Left Aside --->
 <aside class="main-aside">
   <div class="content">
-    <div class="img-container">
-      <img src="src/images/me.jpg" alt="Chloe Collier's profile picture.">
-    </div>
+    <img src="src/images/me.jpg" alt="Chloe Collier's profile picture.">
     <div class="info">
       <h1>Chloe Collier</h1>
       <i ng-repeat="media in appCtrl.social" class="fa fa-{{media}}" aria-hidden="true"></i>
@@ -17,14 +15,14 @@
   <header>
     <nav>
       <ul>
-        <li class="{{page.page}}" ng-class="{'active': page.page == appCtrl.activeItem}" ng-click="appCtrl.activeItem = page.page" ng-repeat="page in appCtrl.nav" ui-sref="{{page.page}}">
+        <li class="{{page.page}}" ng-class="{'active': page.page == appCtrl.activeItem}" ng-click="appCtrl.activeItem = page.page; appCtrl.setView(page.page)" ng-repeat="page in appCtrl.nav" ui-sref="{{page.page}}">
           <i class="fa {{page.icon}}" aria-hidden="true"></i>
           <p>{{page.page}}</p>
         </li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main ng-class="{'mainActive': appCtrl.slideUp}">
     <ui-view>LOADING</ui-view>
   </main>
 </div>

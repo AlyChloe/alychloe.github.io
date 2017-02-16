@@ -6,8 +6,13 @@ main {
   overflow: scroll;
 }
 
+.mainActive {
+  width: 85vw;
+  overflow: scroll;
+  position: relative;
+}
+
 ::-webkit-scrollbar {
-    //-webkit-appearance: none;
     width: 6px;
     max-height: 10px !important;
 }

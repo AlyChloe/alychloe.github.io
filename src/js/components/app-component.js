@@ -6,18 +6,17 @@ angular.module('portfolioApp')
       ctrl.slideUp = false;
 
       ctrl.$onInit = function() {
-        //console.log('APP');
+        ctrl.setView(ctrl.activeItem);
       }
       ctrl.activeItem = $location.path().substr(1);
-      console.log(ctrl.activeItem);
 
-      if(ctrl.activeItem == 'work') {
-        ctrl.slideUp = !ctrl.slideUp;
+      ctrl.setView = function(view) {
+        if(view === 'work') {
+          ctrl.slideUp = true;
+        } else {
+          ctrl.slideUp = false;
+        }
       }
-
-      $('nav li').on('click', '.work', function(e) {
-        console.log(e);
-      });
 
       ctrl.nav = [
         {page:'work', icon:'fa-briefcase'},
@@ -26,6 +25,9 @@ angular.module('portfolioApp')
         {page:'contact', icon:'fa-envelope'}
       ];
       ctrl.social = ['twitter', 'instagram', 'github-alt'];
+    },
+    bindings: {
+      onViewChange: '&'
     },
     controllerAs: 'appCtrl'
   });

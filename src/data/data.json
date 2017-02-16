@@ -1,4 +1,54 @@
 {
+  "work": [
+    {
+      "title": "NannyDash",
+      "picture": "nannydash",
+      "content": "An app to help babysitting agencies, parents, and sitters communicate more efficiently.",
+      "skills": "HTML + Sass + JavaScript + Jquery + AJAX + AngularJS",
+      "github": "https://github.com/AlyChloe/nannydash",
+      "live": "https://nannydash.herokuapp.com/"
+    },
+    {
+      "title": "Cisum",
+      "picture": "cisum",
+      "content": "A music application which shows top songs, artists, and your custom playlist.",
+      "skills": "HTML + Sass + JavaScript + API",
+      "github": "https://github.com/AlyChloe/musicApp",
+      "live": "http://cisum.chloecollier.com/"
+    },
+    {
+      "title": "Shop Inventory",
+      "picture": "Shopular",
+      "content": "A store's inventory.",
+      "skills": "HTML + Sass + JavaScript + AngularJS + localStorage",
+      "github": "https://github.com/AlyChloe/shopular",
+      "live": "https://alychloe.github.io/shopular/"
+    },
+    {
+      "title": "All Things Social",
+      "picture": "all-things-social",
+      "content": "A tutorial guide for parents using social media.",
+      "skills": "HTML + Sass + JavaScript + AngularJS",
+      "github": "https://github.com/AlyChloe/allThingsSocial",
+      "live": "https://allthings-social.herokuapp.com/#/login"
+    },
+    {
+      "title": "To Do or Not To Do",
+      "picture": "to-do",
+      "content": "TODO list app which let's user add, edit, delete, or complete an item",
+      "skills": "HTML + Sass + JavaScript + AngularJS + localStorage",
+      "github": "https://github.com/AlyChloe/to-do-list-angular",
+      "live": "https://alychloe.github.io/to-do-list-angular/"
+    },
+    {
+      "title": "Dice Game",
+      "picture": "dice-game",
+      "content": "Dice game built with JavaScript",
+      "skills": "HTML + Sass + JavaScript",
+      "github": "https://github.com/AlyChloe/diceGame",
+      "live": "https://alychloe.github.io/diceGame/"
+    }
+  ],
   "career": [
     {
       "position": "Front-End Developer",
@@ -57,7 +107,7 @@
       ]
     }
   ],
-  
+
   "skills": [
     {
       "skill": "JavaScript",

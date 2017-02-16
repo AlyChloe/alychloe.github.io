@@ -13,12 +13,17 @@ aside {
 }
 
 .asideActive {
-  height: 22.3vh;
+  height: 16.7vh;
+  max-height: 112.5px;
   border-bottom: #ddd solid 1px;
-  transition: height ease-in 1s;
+  z-index: 1;
+  position: relative;
 }
 
 .aside {
+  background: #fff;
+  transition: all ease-in 500ms;
+
   .content {
     text-align: center;
 
@@ -30,20 +35,12 @@ aside {
 }
 
 .main-aside {
-  .img-container {
-    width: 100%;
-    border: $font solid 5px;
-    border-radius: 50%;
-    overflow: hidden;
-    max-height: 180px;
 
-    img {
-      width: 800px;
-      position: relative;
-      z-index: -1;
-      left: -270px;
-      top: -225px;
-    }
+  img {
+    width: 100%;
+    max-width: 151px;
+    border: #EFEFEF solid 5px;
+    border-radius: 50%;
   }
 
   .content {
