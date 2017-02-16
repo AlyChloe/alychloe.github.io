@@ -4,6 +4,31 @@ main {
   height: 100vh;
   background: url(../../src/images/crossword.png);
   overflow: scroll;
+  position: relative;
+}
+
+#page {
+    display: none;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+
+    .fa-spinner {
+      color: $prim;
+      font-size: 75px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 130px;
+    }
 }
 
 .mainActive {

@@ -5,7 +5,7 @@
     <div class="info">
       <h1>Chloe Collier</h1>
       <i ng-repeat="media in appCtrl.social" class="fa fa-{{media}}" aria-hidden="true"></i>
-      <h2>Designer<br>who<br>codes;</h2>
+      <h2>Designer <br>who <br>codes;</h2>
     </div>
   </div>
 </aside>
@@ -22,8 +22,9 @@
       </ul>
     </nav>
   </header>
-  <main ng-class="{'mainActive': appCtrl.slideUp}">
-    <ui-view>LOADING</ui-view>
+  <main id="page" ng-class="{'mainActive': appCtrl.slideUp}">
+    <div id="loading"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></div>
+    <ui-view></ui-view>
   </main>
 </div>
 <!--- Right Aside --->

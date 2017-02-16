@@ -1,0 +1,12 @@
+@mixin media($point) {
+	@if $point == largeDesktop {
+    @media screen and (max-width: 1208px) {
+      @content;
+    }
+  }
+  @if $point == desktop {
+    @media screen and (max-width: 1065px) {
+      @content;
+    }
+  }
+}

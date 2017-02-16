@@ -17,17 +17,27 @@ work {
         height: auto;
         overflow: hidden;
         width: 55%;
+        @include media(largeDesktop) {
+          width: 50%;
+        };
 
         img {
           width: 475px;
           height: auto;
           box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
+          @include media(largeDesktop) {
+            width: 100%;
+          };
         }
       }
 
       .content-container {
         float: left;
         width: 45%;
+        @include media(largeDesktop) {
+          width: 50%;
+          padding-left: 35px;
+        };
 
         h2 {
           font-size: 20px;

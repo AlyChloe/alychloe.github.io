@@ -2,6 +2,11 @@ aside {
   width: 15vw;
   height: 100vh;
   display: inline-block;
+  @include media(desktop) {
+    display: block;
+    width: 100%;
+    height: auto;
+  };
 
   &:first-child {
     border-right: #ddd solid 1px;
@@ -41,6 +46,10 @@ aside {
     max-width: 151px;
     border: #EFEFEF solid 5px;
     border-radius: 50%;
+    @include media(desktop) {
+      display: block;
+      margin: 0 auto;
+    };
   }
 
   .content {
@@ -48,12 +57,18 @@ aside {
 
     .info {
       padding-top: 35px;
+      @include media(desktop) {
+        text-align: center;
+      };
 
       h1 {
         font-size: 25px;
         margin-bottom: 15px;
         color: $prim;
         font-weight: 400;
+        @include media(largeDesktop) {
+          font-size: 2vw;
+        };
       }
 
       h2 {
@@ -62,6 +77,12 @@ aside {
         padding-top: 40px;
         line-height: 28px;
         font-weight: 100;
+
+        br {
+          @include media(desktop) {
+            display: none;
+          };
+        }
       }
 
       i {

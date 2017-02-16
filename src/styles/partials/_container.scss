@@ -3,9 +3,16 @@ body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    @include media(desktop) {
+      overflow-y: auto;
+    };
 
     .container {
       display: inline-block;
       width: 70vw;
+      @include media(desktop) {
+        display: block;
+        width: 100%;
+      };
     }
 }
