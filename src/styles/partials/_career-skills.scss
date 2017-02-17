@@ -23,6 +23,12 @@ career {
       width: 25%;
       padding: 9px 0 9px 0;
       cursor: pointer;
+      @include media(desktop) {
+        width: 33.3%;
+      };
+      @include media(largeMobile) {
+        width: 50%;
+      };
 
       &:hover {
         & .skill {
@@ -42,14 +48,6 @@ career {
         background: $prim;
         padding: 5px 12px;
         border-radius: 4px;
-      }
-
-      p {
-
-      }
-
-      .skill {
-
       }
     }
 

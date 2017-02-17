@@ -7,6 +7,9 @@ about {
     font-size: 22px;
     padding-bottom: 45px;
     color: #555;
+    @include media(mobile) {
+      line-height: 32px;
+    };
   }
 
   p {

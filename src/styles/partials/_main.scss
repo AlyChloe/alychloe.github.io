@@ -5,6 +5,17 @@ main {
   background: url(../../src/images/crossword.png);
   overflow: scroll;
   position: relative;
+  @include media(desktop) {
+    overflow: hidden;
+    height: 100%;
+    padding: 65px 75px;
+  };
+  @include media(largeMobile) {
+    padding: 55px 65px;
+  };
+  @include media(mobile) {
+    padding: 50px 40px;
+  };
 }
 
 #page {
@@ -35,11 +46,17 @@ main {
   width: 85vw;
   overflow: scroll;
   position: relative;
+  @include media(desktop) {
+    width: 100%;
+  };
 }
 
 ::-webkit-scrollbar {
     width: 6px;
     max-height: 10px !important;
+    @include media(desktop) {
+      display: none;
+    };
 }
 ::-webkit-scrollbar-thumb {
     background-color: $prim;

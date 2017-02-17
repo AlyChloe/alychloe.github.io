@@ -11,6 +11,9 @@ contact {
     width: 80%;
     margin: 0 auto;
     background: #fff;
+    @include media(largeMobile) {
+      width: 100%;
+    };
 
     fieldset {
 

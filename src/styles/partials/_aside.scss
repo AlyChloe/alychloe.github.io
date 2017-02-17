@@ -10,6 +10,9 @@ aside {
 
   &:first-child {
     border-right: #ddd solid 1px;
+    @include media(desktop) {
+      border-right: transparent;
+    };
   }
 
   &:last-child {
@@ -28,6 +31,10 @@ aside {
 .aside {
   background: #fff;
   transition: all ease-in 500ms;
+  border-right: #ddd solid 1px;
+  @include media(desktop) {
+    border-top: #ddd solid 1px;
+  };
 
   .content {
     text-align: center;
@@ -35,6 +42,13 @@ aside {
     img {
       width: 150px;
       margin-top: 20px;
+      @include media(desktop) {
+        width: 115px;
+        margin: 25px 0;
+      };
+      @include media(mobile) {
+        width: 80px;
+      };
     }
   }
 }
@@ -50,6 +64,9 @@ aside {
       display: block;
       margin: 0 auto;
     };
+    @include media(mobile) {
+      float: left;
+    };
   }
 
   .content {
@@ -59,6 +76,10 @@ aside {
       padding-top: 35px;
       @include media(desktop) {
         text-align: center;
+        padding-top: 30px;
+      };
+      @include media(mobile) {
+        padding: 20px 0px;
       };
 
       h1 {
@@ -69,6 +90,12 @@ aside {
         @include media(largeDesktop) {
           font-size: 2vw;
         };
+        @include media(largeDesktop) {
+          font-size: 25px;
+        };
+        @include media(mobile) {
+          font-size: 22px;
+        };
       }
 
       h2 {
@@ -77,6 +104,13 @@ aside {
         padding-top: 40px;
         line-height: 28px;
         font-weight: 100;
+        @include media(desktop) {
+          padding: 20px 0 10px;
+        };
+        @include media(mobile) {
+          font-size: 17px;
+          padding: 10px 0;
+        };
 
         br {
           @include media(desktop) {

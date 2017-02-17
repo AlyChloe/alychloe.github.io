@@ -4,6 +4,11 @@ article {
   .icon {
     width: 10%;
     float: left;
+    @include media(largeMobile) {
+      width: 100%;
+      float: none;
+      margin-bottom: 25px;
+    };
 
     h2 {
       background: $sec;
@@ -17,6 +22,9 @@ article {
       z-index: 2;
       color: $prim;
       font-weight: 400;
+      @include media(largeMobile) {
+        margin: 0 auto;
+      };
     }
 
     .line {
@@ -27,6 +35,9 @@ article {
       top: 47px;
       left: 35px;
       z-index: 0;
+      @include media(largeMobile) {
+        display: none;
+      };
     }
   }
 
@@ -35,21 +46,45 @@ article {
     padding-top: 10px;
     width: 90%;
     float: left;
+    @include media(desktop) {
+      padding-left: 35px;
+    };
+    @include media(largeMobile) {
+      padding-left: 0px;
+      width: 100%;
+      float: none;
+    };
 
     span {
       font-weight: 400;
+      @include media(largeMobile) {
+        display: block;
+        padding-bottom: 10px;
+      };
+    }
+
+    h3 {
+      @include media(largeMobile) {
+        text-align: center;
+      };
     }
 
     & > p {
       padding: 20px 0;
       font-style: italic;
       line-height: 23px;
+      @include media(largeMobile) {
+        text-align: center;
+      };
     }
 
     .duties {
 
       p {
         padding-bottom: 20px;
+        @include media(largeMobile) {
+          text-align: center;
+        };
       }
 
       ul {

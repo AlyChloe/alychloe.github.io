@@ -9,4 +9,19 @@
       @content;
     }
   }
+  @if $point == tablet {
+    @media screen and (max-width: 850px) {
+      @content;
+    }
+  }
+  @if $point == largeMobile {
+    @media screen and (max-width: 620px) {
+      @content;
+    }
+  }
+  @if $point == mobile {
+    @media screen and (max-width: 545px) {
+      @content;
+    }
+  }
 }
