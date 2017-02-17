@@ -66,7 +66,7 @@
       "position": "Front-End Engineer Student",
       "company": "The Iron Yard",
       "year": "2016",
-      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "info": "After two years of settling, I finally decided to quit my job and join The Iron Yard. It has been the best decision. During this 12 week bootcamp I was able to strengthen my JavaScript skills, sharpen my ability to refactor code, and build my  collaboration skills.",
       "duties": [
         "Programmed websites using JavaScript, JQuery, MVC frameworks, Sass, and APIs",
         "Built variety of apps such as a music playlist, interactive games, and complex dashboard",
@@ -78,7 +78,7 @@
       "position": "Front-End Developer",
       "company": "Penner Web Design",
       "year": "2016",
-      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "info": "I’ve been developing with Toban for a few years now and he’s helped strengthen my CSS skills. I have built over 5 websites for him. Here are some examples: <a href='http://medicineshoppesalisbury.com/'>The Medicine Shoppe</a> | <a href='http://dickersonfenceco.com/'>Dickerson Fencing</a> | <a href='http://customserenade.com/'>Custom Serenade</a>",
       "duties": [
         "Developed websites in WordPress from design mockups using HTML and CSS"
       ]
@@ -98,7 +98,7 @@
       "position": "Business Development Coordinator",
       "company": "OnPar Technologies",
       "year": "2013",
-      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "info": "I owe OnPar a lot of thank yous. This is when I was able to find out what I truly love doing. Being a small company, I was able to wear many hats and strengthen different roles which include project management, developer, and admin.",
       "duties": [
         "Created and maintained client websites",
         "Provided input on company’s strategies, processes, and procedures",
@@ -166,7 +166,7 @@
       "level": "experienced"
     },
     {
-      "skill": "C",
+      "skill": "C#",
       "level": "beginner"
     },
     {
