@@ -35,12 +35,60 @@ career {
           visibility: hidden;
         }
 
-        & .skillLevelToggle {
+        & .beginner {
+          display: block;
+        }
+
+        & .experienced {
+          display: block;
+        }
+
+         & .expert {
           display: block;
         }
       }
 
-      .skillLevelToggle {
+      .beginner {
+        display: none;
+        color: #fff;
+        position: absolute;
+        top: 4px;
+        background: $font;
+        padding: 5px 12px;
+        border-radius: 4px;
+
+        &:before {
+          font-family: FontAwesome;
+          content: '\f1ae';
+          font-size: 14px;
+          color: #fff;
+          position: relative;
+          top: -1px;
+          margin-right: 5px;
+        }
+      }
+
+      .experienced {
+        display: none;
+        color: #fff;
+        position: absolute;
+        top: 4px;
+        background: #5BB3F8;
+        padding: 5px 12px;
+        border-radius: 4px;
+
+        &:before {
+          font-family: FontAwesome;
+          content: '\f164';
+          font-size: 14px;
+          color: #fff;
+          position: relative;
+          top: 0px;
+          margin-right: 5px;
+        }
+      }
+
+      .expert {
         display: none;
         color: #fff;
         position: absolute;
@@ -48,6 +96,16 @@ career {
         background: $prim;
         padding: 5px 12px;
         border-radius: 4px;
+
+        &:before {
+          font-family: FontAwesome;
+          content: '\f132';
+          font-size: 14px;
+          color: #fff;
+          position: relative;
+          top: 0px;
+          margin-right: 5px;
+        }
       }
     }
 

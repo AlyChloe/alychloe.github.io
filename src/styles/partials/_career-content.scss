@@ -28,7 +28,7 @@ article {
     }
 
     .line {
-      height: 100%;
+      height: 111%;
       background: $prim;
       width: 5px;
       position: absolute;
@@ -76,6 +76,15 @@ article {
       @include media(largeMobile) {
         text-align: center;
       };
+
+      a {
+        text-decoration: none;
+        color: $prim;
+
+        &:hover {
+          font-weight: 500;
+        }
+      }
     }
 
     .duties {
@@ -94,6 +103,7 @@ article {
           list-style: initial;
           padding-bottom: 10px;
           line-height: 23px;
+          color: #555;
         }
       }
     }

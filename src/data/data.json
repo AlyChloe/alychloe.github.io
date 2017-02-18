@@ -78,16 +78,21 @@
       "position": "Front-End Developer",
       "company": "Penner Web Design",
       "year": "2016",
-      "info": "I’ve been developing with Toban for a few years now and he’s helped strengthen my CSS skills. I have built over 5 websites for him. Here are some examples: <a href='http://medicineshoppesalisbury.com/'>The Medicine Shoppe</a> | <a href='http://dickersonfenceco.com/'>Dickerson Fencing</a> | <a href='http://customserenade.com/'>Custom Serenade</a>",
+      "info": "I’ve been developing with Toban for a few years now and he’s helped me strengthen my CSS skills. I have built over 5 websites for him. Here are some examples: ",
       "duties": [
         "Developed websites in WordPress from design mockups using HTML and CSS"
+      ],
+      "url": [
+        {"name": "The Medicine Shoppe", "path": "http://medicineshoppesalisbury.com/"},
+        {"name": "Dickerson Fencing", "path": "http://dickersonfenceco.com/"},
+        {"name": "Custom Serenade", "path": "http://customserenade.com/"}
       ]
     },
     {
       "position": "Creative Services Coordinator",
       "company": "OnPar Technologies",
       "year": "2015",
-      "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
+      "info": "I am very proud of this position. I developed the SharePoint department from nothing to now an onboarding process for OnPar. I did everything from interviewing the client to creating custom workflows and forms.",
       "duties": [
         "Implemented SharePoint design and development projects for clients",
         "Performed live training and webinars on Microsoft SharePoint",
@@ -98,7 +103,7 @@
       "position": "Business Development Coordinator",
       "company": "OnPar Technologies",
       "year": "2013",
-      "info": "I owe OnPar a lot of thank yous. This is when I was able to find out what I truly love doing. Being a small company, I was able to wear many hats and strengthen different roles which include project management, developer, and admin.",
+      "info": "I owe OnPar a lot of thank yous. This is when I was able to find out what I truly love to do. Being a small company, I was able to wear many hats and strengthen different roles which include project management, development, and admin duties.",
       "duties": [
         "Created and maintained client websites",
         "Provided input on company’s strategies, processes, and procedures",

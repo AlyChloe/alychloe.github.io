@@ -5,7 +5,7 @@ Skills Section
 <div class="skills">
   <div ng-repeat="skill in techSkills" class="skills-container">
     <p class="skill">{{skill.skill}}</p>
-    <p class="skillLevelToggle">{{skill.level}}</p>
+    <p ng-class="{'beginner': skill.level == 'beginner', 'experienced': skill.level == 'experienced', 'expert': skill.level == 'expert'}">{{skill.level}}</p>
   </div>
 </div>
 <!-- ***************
@@ -24,7 +24,7 @@ Career Section
       **************** -->
       <div class="career-content">
         <h3><span>{{career.position}}</span> at {{career.company}}</h3>
-        <p class="position-info">{{career.info}}</p>
+        <p class="position-info">{{career.info}}<a ng-repeat="url in career.url" target="_blank" href="{{url.path}}">{{url.name}}{{$last ? '' : ', '}}</a></p>
         <div class="duties">
           <p>Glimpse of duties:</p>
           <ul>
