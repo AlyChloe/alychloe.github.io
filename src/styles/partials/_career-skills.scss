@@ -22,7 +22,6 @@ career {
       float: left;
       width: 25%;
       padding: 9px 0 9px 0;
-      cursor: pointer;
       @include media(desktop) {
         width: 33.3%;
       };
@@ -59,7 +58,7 @@ career {
 
         &:before {
           font-family: FontAwesome;
-          content: '\f1ae';
+          content: '\f0eb';
           font-size: 14px;
           color: #fff;
           position: relative;
