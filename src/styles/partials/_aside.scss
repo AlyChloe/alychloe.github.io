@@ -30,7 +30,7 @@ aside {
 
 .aside {
   background: #fff;
-  transition: all ease-in 500ms;
+  transition: height ease-in 500ms;
   border-right: #ddd solid 1px;
   @include media(desktop) {
     border-top: #ddd solid 1px;
@@ -40,8 +40,8 @@ aside {
     text-align: center;
 
     img {
-      width: 150px;
-      margin-top: 20px;
+      width: 125px;
+      margin-top: 30px;
       @include media(desktop) {
         width: 115px;
         margin: 25px 0;
