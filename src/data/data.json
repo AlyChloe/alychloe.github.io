@@ -52,7 +52,7 @@
   "career": [
     {
       "position": "Front-End Developer",
-      "company": "Raleigh Creative Software",
+      "company": "Raleigh Codesmiths",
       "year": "Now",
       "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
       "duties": [
@@ -60,6 +60,15 @@
         "Designing project mockups using Figma & Sketch",
         "Built and designed RCS’s current website - check it out!",
         "Refactoring code to make life cleaner, slimpler, & plain old better"
+      ]
+    },
+    {
+      "position": "Teacher's Assistant",
+      "company": "Girl Develop It Raleigh",
+      "year": "Now",
+      "info": "I've recently been accepted as GDI's TA. I am very excited to begin helping others code.",
+      "duties": [
+        "Helping individuals learn to code HTML, CSS, and JavaScript"
       ]
     },
     {

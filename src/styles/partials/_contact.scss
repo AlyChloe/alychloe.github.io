@@ -52,6 +52,11 @@ contact {
        font-weight: 200;
     }
 
+    textarea::-moz-placeholder{
+       font-size: 14px;
+       font-weight: 200;
+    }
+
     input[type="submit"] {
       width: 100%;
       border-radius: 0%;
