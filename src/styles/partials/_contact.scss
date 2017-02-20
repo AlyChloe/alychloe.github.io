@@ -52,9 +52,19 @@ contact {
        font-weight: 200;
     }
 
-    textarea::-moz-placeholder{
-       font-size: 14px;
-       font-weight: 200;
+    :-moz-placeholder { /* Firefox 18- */
+      font-size: 14px;
+      font-weight: 200;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+      font-size: 14px;
+      font-weight: 200;
+    }
+
+    :-ms-input-placeholder {
+      font-size: 14px;
+      font-weight: 200;  
     }
 
     input[type="submit"] {
