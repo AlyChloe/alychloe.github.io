@@ -24,7 +24,11 @@ angular.module('portfolioApp')
         {page:'career', icon:'fa-trophy'},
         {page:'contact', icon:'fa-envelope'}
       ];
-      ctrl.social = ['twitter', 'instagram', 'github-alt'];
+      ctrl.social = [
+        {media: 'twitter', url: 'https://twitter.com/achloecollier'},
+        {media: 'instagram', url: 'https://www.instagram.com/achloecollier/'},
+        {media: 'github-alt', url: 'https://github.com/AlyChloe'}
+      ];
 
       function onReady(callback) {
           var intervalID = window.setInterval(checkReady, 1000);

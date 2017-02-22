@@ -1,6 +1,13 @@
 {
   "work": [
     {
+      "title": "Raleigh Codesmiths",
+      "picture": "raleighCodesmiths",
+      "content": "Raleigh Codesmiths' website.",
+      "skills": "HTML + Sass + JavaScript + Jquery + C# + Visual Studio",
+      "live": "http://rcs.ccis-inc.com/"
+    },
+    {
       "title": "NannyDash",
       "picture": "nannydash",
       "content": "An app to help babysitting agencies, parents, and sitters communicate more efficiently.",
@@ -58,7 +65,7 @@
       "duties": [
         "Building websites and applications using HTML, Sass, JavaScript, & C# in Visual Studio",
         "Designing project mockups using Figma & Sketch",
-        "Built and designed RCS’s current website - check it out!",
+        "Built and designed RCS’s current website",
         "Refactoring code to make life cleaner, slimpler, & plain old better"
       ]
     },
@@ -66,7 +73,7 @@
       "position": "Teacher's Assistant",
       "company": "Girl Develop It Raleigh",
       "year": "Now",
-      "info": "I've recently been accepted as GDI's TA. I am very excited to begin helping others code.",
+      "info": "I've recently been accepted as GDI's TA. I am very excited to help guide others in the world of code.",
       "duties": [
         "Helping individuals learn to code HTML, CSS, and JavaScript"
       ]

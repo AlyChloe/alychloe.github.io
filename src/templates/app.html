@@ -4,7 +4,7 @@
     <img src="src/images/me.jpg" alt="Chloe Collier's profile picture.">
     <div class="info">
       <h1>Chloe Collier</h1>
-      <i ng-repeat="media in appCtrl.social" class="fa fa-{{media}}" aria-hidden="true"></i>
+      <a ng-repeat="media in appCtrl.social" target="_blank" href="{{media.url}}"><i class="fa fa-{{media.media}}" aria-hidden="true"></i></a>
       <h2>Designer <br>who <br>codes;</h2>
     </div>
   </div>
