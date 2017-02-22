@@ -64,6 +64,8 @@ article {
     }
 
     h3 {
+      color: #555;
+      font-size: 16.5px;
       @include media(largeMobile) {
         text-align: center;
       };
