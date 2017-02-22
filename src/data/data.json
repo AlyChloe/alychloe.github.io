@@ -46,14 +46,6 @@
       "skills": "HTML + Sass + JavaScript + AngularJS + localStorage",
       "github": "https://github.com/AlyChloe/to-do-list-angular",
       "live": "https://alychloe.github.io/to-do-list-angular/"
-    },
-    {
-      "title": "Dice Game",
-      "picture": "dice-game",
-      "content": "Dice game built with JavaScript",
-      "skills": "HTML + Sass + JavaScript",
-      "github": "https://github.com/AlyChloe/diceGame",
-      "live": "https://alychloe.github.io/diceGame/"
     }
   ],
   "career": [
@@ -119,7 +111,7 @@
       "position": "Business Development Coordinator",
       "company": "OnPar Technologies",
       "year": "2013",
-      "info": "I owe OnPar a lot of thank yous. This is when I was able to find out what I truly love to do. Being a small company, I was able to wear many hats and strengthen different roles which include project management, development, and admin duties.",
+      "info": "I owe OnPar a lot of thank yous. This is when I was able to find out what I truly love to do. Being a small company, I was able to wear many hats and strengthen different roles which included project management, development, and admin duties.",
       "duties": [
         "Created and maintained client websites",
         "Provided input on company’s strategies, processes, and procedures",
