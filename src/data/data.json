@@ -1,11 +1,17 @@
 {
   "work": [
     {
+      "title": "Murdock",
+      "picture": "murdock",
+      "content": "A case management system for law offices to use.",
+      "skills": "HTML + Sass + JavaScript + Angular + Visual Studio + Figma"
+    },
+    {
       "title": "Raleigh Codesmiths",
       "picture": "raleighCodesmiths",
       "content": "Raleigh Codesmiths' website.",
       "skills": "HTML + Sass + JavaScript + Jquery + C# + Visual Studio",
-      "live": "http://rcs.ccis-inc.com/"
+      "live": "http://www.raleighcodesmiths.com/"
     },
     {
       "title": "NannyDash",
@@ -139,7 +145,7 @@
       "level": "experienced"
     },
     {
-      "skill": "Grunt",
+      "skill": "Grunt/Gulp",
       "level": "experienced"
     },
     {
