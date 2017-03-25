@@ -8,8 +8,8 @@
       <h2>{{item.title}}</h2>
       <p>{{item.content}}</p>
       <p>Skills: {{item.skills}}</p>
-      <a href="{{item.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="{{item.live}}"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+      <a ng-if="item.github" href="{{item.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a ng-if="item.live" href="{{item.live}}"><i class="fa fa-desktop" aria-hidden="true"></i></a>
     </div>
   </div>
 </div>
