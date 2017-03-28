@@ -27,7 +27,8 @@ angular.module('portfolioApp')
       ctrl.social = [
         {media: 'twitter', url: 'https://twitter.com/achloecollier'},
         {media: 'instagram', url: 'https://www.instagram.com/achloecollier/'},
-        {media: 'github-alt', url: 'https://github.com/AlyChloe'}
+        {media: 'github-alt', url: 'https://github.com/AlyChloe'},
+        {media: 'linkedin-square', url: 'https://www.linkedin.com/in/chloe-collier-0b4b0258/'}
       ];
     },
     bindings: {

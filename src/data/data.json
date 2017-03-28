@@ -61,10 +61,10 @@
       "year": "Now",
       "info": "I love what I am doing. I am currently working on building the next biggest baddest software system. Being challenged is just the way I like it.",
       "duties": [
-        "Building websites and applications using HTML, Sass, JavaScript, & C# in Visual Studio",
+        "Currently developing a case management system for law offices in Angular and ASP.NET",
         "Designing project mockups using Figma & Sketch",
-        "Built and designed RCS’s current website",
-        "Refactoring code to make life cleaner, slimpler, & plain old better"
+        "Designed and built entire company website in one month using Visual Studio",
+        "Incorporated handlebars, Sass, C#, JavaScript, and HTML in company website"
       ]
     },
     {
@@ -82,9 +82,9 @@
       "year": "2016",
       "info": "After two years of settling, I finally decided to quit my job and join The Iron Yard. It has been the best decision. During this 12 week bootcamp I was able to strengthen my JavaScript skills, sharpen my ability to refactor code, and build my  collaboration skills.",
       "duties": [
-        "Programmed websites using JavaScript, JQuery, MVC frameworks, Sass, and APIs",
-        "Built variety of apps such as a music playlist, interactive games, and complex dashboard",
-        "Collaborated weekly on group projects which led to working web applications",
+        "Coded functional application in two weeks using Angular, JavaScript, and Sass",
+        "Built variety of apps such as a music playlist, games, and babysitting agency dashboard",
+        "Played leadership role in every group project which in turn strengthened my knowledge",
         "Designed all personal and group project mockups using Sketch"
       ]
     },
@@ -185,7 +185,7 @@
       "level": "experienced"
     },
     {
-      "skill": "C#",
+      "skill": "React",
       "level": "beginner"
     },
     {
