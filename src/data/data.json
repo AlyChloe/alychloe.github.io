@@ -38,20 +38,18 @@
       "live": "https://alychloe.github.io/shopular/"
     },
     {
-      "title": "All Things Social",
-      "picture": "all-things-social",
-      "content": "A tutorial guide for parents using social media.",
-      "skills": "HTML + Sass + JavaScript + AngularJS",
-      "github": "https://github.com/AlyChloe/allThingsSocial",
-      "live": "https://allthings-social.herokuapp.com/#/login"
+      "title": "Dickerson Fencing",
+      "picture": "dickerson-fencing",
+      "content": "Client website built in WordPress",
+      "skills": "HTML + CSS",
+      "live": "http://dickersonfenceco.com/"
     },
     {
-      "title": "To Do or Not To Do",
-      "picture": "to-do",
-      "content": "TODO list app which let's user add, edit, delete, or complete an item",
-      "skills": "HTML + Sass + JavaScript + AngularJS + localStorage",
-      "github": "https://github.com/AlyChloe/to-do-list-angular",
-      "live": "https://alychloe.github.io/to-do-list-angular/"
+      "title": "Custom Serenade",
+      "picture": "custom-serenade",
+      "content": "Client website built in WordPress",
+      "skills": "HTML + CSS",
+      "live": "http://customserenade.com/"
     }
   ],
   "career": [
